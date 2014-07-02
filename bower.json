@@ -1,0 +1,10 @@
+{
+  "name": "jquery-ui-datepicker-languages",
+  "version": "0.0.1",
+  "description": "jQuery UI datepicker languages.",
+  "keywords": [
+    "jquery",
+    "ui",
+    "language"
+  ]
+}
