@@ -1,6 +1,5 @@
-/* Norwegian initialisation for the jQuery UI date picker plugin. */
-/* Written by Naimdjon Takhirov (naimdjon@gmail.com). */
-
+/* Norwegian Bokmål initialisation for the jQuery UI date picker plugin. */
+/* Written by Bjørn Johansen (post@bjornjohansen.no). */
 ( function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
 
@@ -13,7 +12,7 @@
 	}
 }( function( datepicker ) {
 
-datepicker.regional.no = {
+datepicker.regional.nb = {
 	closeText: "Lukk",
 	prevText: "&#xAB;Forrige",
 	nextText: "Neste&#xBB;",
@@ -30,8 +29,8 @@ datepicker.regional.no = {
 	showMonthAfterYear: false,
 	yearSuffix: ""
 };
-datepicker.setDefaults( datepicker.regional.no );
+datepicker.setDefaults( datepicker.regional.nb );
 
-return datepicker.regional.no;
+return datepicker.regional.nb;
 
 } ) );
